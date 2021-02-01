@@ -1,5 +1,12 @@
 body{
-    text-align: center;
+    align-items: center;
     font-family: arial;
     color: chocolate;
+}
+.container{
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1em;
 }
