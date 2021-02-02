@@ -4,24 +4,29 @@ body{
     color: chocolate;
 }
 .container{
-    width: 70%;
+    width: 100%;
     text-align: left;
     margin: 0 auto;
     border: 1px solid black;
-    padding: 1em;
 }
 
 #cabecera{
     padding: 10px;
-    background: blue;
+    background: rgb(190, 86, 86);
     color: cornsilk;
     font-weight: bold;
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 42px 5px rgba(0,0,0,0);
 }
 #blog-title{
     font-weight: normal;
+    padding: 10px;
+}
+#post{
+    padding: 1em;
+}
+#cabecera img{
+    width: 20%;
 }
