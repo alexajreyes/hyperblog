@@ -1,6 +1,6 @@
 body{
     align-items: center;
-    font-family: courier;
+    font-family: Arial;
     color: chocolate;
 }
 .container{
@@ -8,7 +8,6 @@ body{
     text-align: left;
     margin: 0 auto;
     border: 1px solid black;
-    padding: 1em;
 }
 
 #cabecera{
@@ -24,4 +23,15 @@ body{
 }
 #blog-title{
     font-weight: normal;
+}
+#post{
+    padding: 1em;
+}
+
+#footer{
+    background-color: rgb(121, 72, 136);
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
